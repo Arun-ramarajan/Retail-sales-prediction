@@ -6,10 +6,9 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from tensorflow.keras.layers import LeakyReLU
 import numpy as np
-#from keras.models import load_model
 
-import os
-os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
+
+
 
 
 sales=pd.read_csv('C:/Users/LENOVO/Desktop/Guvi/Project/Final project/preprocessed/final_project_no_skew.csv')

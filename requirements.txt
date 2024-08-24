@@ -1,8 +1,6 @@
-import pandas as pd
-import streamlit as st
-from streamlit_option_menu import option_menu
-import tensorflow as tf
-from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import train_test_split
-from tensorflow.keras.layers import LeakyReLU
-import numpy as np
+pandas 
+streamlit
+streamlit_option_menu
+tensorflow 
+scikit-learn
+numpy
